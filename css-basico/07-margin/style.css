@@ -1,0 +1,29 @@
+p {
+    /*Shorthand - Colocando todos com mesmo valor
+    margin: 30px;*/
+
+    /*Shorthand - Colocando valores topo bottom iguais e left e right iguais*/
+    margin: 30px, 15px;
+
+    /*Shorthand - Colocando todos valores separados
+    margin: 30px, 15px, 30px, 15px;*/
+
+    /* Colocando todos separados
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 15px; */
+    
+    padding: 20px;
+
+    border: 10px solid red;
+}
+
+h1 {
+    border-style: solid;
+    border-width: 20px;
+    border-top-color: green;
+    border-bottom-color: aquamarine;
+    border-left-color: purple;
+    border-right-color: yellow;
+}
