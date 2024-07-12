@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <!--Metodo com GET - Apresenta na URL o parametro-->
+    <h3>Formulário com GET</h3>
+    <form method="GET" action="index.html">
+        <input type="text" name="q" id="text">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!--Metodo com POST - Apresenta na URL o parametro-->
+    <h3>Formulário com POST</h3>
+    <form method="POST" action="index.html">
+        <input type="text" name="q" id="text">
+    </form>
+
+    <h3>Formulário de Login</h3>
+    <form method="GET" action="index.html">
+        <input type="text" name="nome" id="name" placeholder="Nome">
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"> <br>
+        <input type="text" name="email" id="email" placeholder="E-mail">
+        <input type="password" name="senha" id="senha" placeholder="Senha"> 
+        <input type="submit" value="Enviar">
+
+        <br><br>
+
+        <label>Data de Nascimento</label>
+        <br>
+        <select name="dia" id="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <select name="mes" id="mes">
+            <option value="1">Jan</option>
+            <option value="2">Fev</option>
+            <option value="3">Mar</option>
+            <option value="4">Abr</option>
+            <option value="5">Maio</option>
+            <option value="6">Jun</option>
+        </select>
+
+        <select name="ano" id="ano">
+            <option value="1999">1999</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+        </select>
+
+        <br><br>
+
+        <label>Gênero</label> <br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="gereno" id="feminino" value="1">
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="gereno" id="masculino" value="2">
+        
+        <label for="outro">Outro</label>
+        <input type="radio" name="gereno" id="outro" value="3">
+
+        <input type="file" name="" id="">
+
+        <br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
