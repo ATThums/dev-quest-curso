@@ -28,3 +28,19 @@
 html {
     font-size: 24px;
 }
+
+/* ------------------------------ */
+/* -------- Text Align ---------- */
+/* ------------------------------ */
+
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
